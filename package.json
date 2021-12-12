@@ -1,0 +1,27 @@
+{
+  "name": "@sensible-contract/wallets",
+  "version": "1.0.0",
+  "description": "Wallets",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile": "tsc -b tsconfig.json",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "sensiblecontract.org",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@sensible-contract/abstract-wallet": "^1.0.0",
+    "@sensible-contract/tx-composer": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  }
+}
